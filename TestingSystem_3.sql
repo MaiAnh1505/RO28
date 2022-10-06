@@ -50,7 +50,7 @@ WHERE  ;
 -- Câu 12: Xóa tất cả các exam được tạo trước ngày 20/12/2019                           
 DELETE FROM `Exam`
 WHERE CreateDate < '2019-12-20' ; 
---  ( L Ỗ I  )
+
 
 
 -- Câu 13: Xóa tất cả các question có nội dung bắt đầu bằng từ "câu hỏi" 
@@ -68,7 +68,7 @@ WHERE AccountID = '5' ;
 UPDATE `GroupAccount`
 SET AccountID = '5'
 Where GroupID = '4';
--- ( L Ỗ I  )
+
 
 
 
